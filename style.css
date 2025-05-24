@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Pacifico&display=swap');
+
 .header{
     background-color: white;
+}
 
+.item-header{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
 }
 
 .main{
@@ -12,15 +20,10 @@
 
 }
 
-.p{
+p{
 
-    position: absolute;
-    width: 1100px;
-    height: 29px;
-    left: 21px;
-    top: 1617px;
-    
-    font-family: 'Inter';
+    margin: 20px;
+    font-family: "Coral Pixels", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
