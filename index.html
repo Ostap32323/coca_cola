@@ -20,7 +20,16 @@
     </nav>
 
     <div class="main">
-        <img src="img main.png" />
+        <div class="carousel">
+            <div class="carousel-track">
+              <img src="coke-vanilla-banner-ua.png" class="carousel-slide" alt="Слайд 1">
+              <img src="ua-bbq-header-mobile2.png" class="carousel-slide" alt="Слайд 2">
+              <img src="img main.png" class="carousel-slide" alt="Слайд 3">
+            </div>
+            <button class="carousel-button prev">&#10094;</button>
+            <button class="carousel-button next">&#10095;</button>
+          </div>
+          
         <p>
             Наші серця – разом із людьми в Україні, які страждають від жахіть війни,
             а також із біженцями, які змушені були залишити свої домівки.
@@ -71,7 +80,28 @@
         </p>
     </div>
     <footer class="footer">
-        <img style="margin: 20px" class="footer_img" src="ukraine-coca-cola-logo_white_600x96 1.png" />
+        <hr style="
+        height: 2px;
+        border-width: 0;
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        margin: 20px;
+      " />
+        <div class="footer-logo">
+            <div class="social-icons">
+                <a href="#">
+                    <img src="instagram.png" alt="Instagram" width="30" height="30">
+                </a>
+                <a href="#">
+                    <img src="youtube.png" alt="YouTube" width="30" height="30">
+                </a>
+                <a href="#">
+                    <img src="linkedin.png" alt="LinkedIn" width="30" height="30">
+                </a>
+            </div>
+        </div>
+        
+        
         <hr style="
           height: 2px;
           border-width: 0;
@@ -79,34 +109,7 @@
           background-color: rgb(255, 255, 255);
           margin: 20px;
         " />
-        <div style="
-          border-radius: 50%;
-          stroke-width: 1px;
-          border: 2px solid #ffffff;
-          width: 98px;
-          height: 98px;
-        ">
-            <img style="margin: 20px" class="footer_img" src="Instagram.png" />
-        </div>
-        <div style="
-          border-radius: 50%;
-          stroke-width: 1px;
-          border: 2px solid #ffffff;
-          width: 98px;
-          height: 98px;
-        ">
-            <img style="margin: 20px" class="footer_img" src="Youtube.png" />
-        </div>
-        <div style="
-          border-radius: 50%;
-          stroke-width: 1px;
-          border: 2px solid #ffffff;
-          width: 98px;
-          height: 98px;
-        ">
-            <img style="margin: 20px" class="footer_img" src="Linkedin.png" />
-        </div>
     </footer>
 </body>
-
+<script src="carousel_script.js"></script>
 </html>
