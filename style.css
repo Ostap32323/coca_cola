@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Pacifico&display=swap');
 
-.header{
-    background-color: white;
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
 }
 
-.item-header{
+.item-header {
+    display: flex;
+    gap: 20px;
+    width: 177px;
+    height: 39px;
+    left: 302px;
+    top: 14px;
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
-    color: #000000;
 }
+
 
 .main{
     background-color: #EEEEEE;
@@ -32,5 +40,7 @@ p{
     
     color: #000000;
 }
+
+
 
 
