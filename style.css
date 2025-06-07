@@ -18,6 +18,12 @@
     line-height: 39px;
 }
 
+.item-header a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
 
 .main {
     background-color: #EEEEEE;
@@ -47,7 +53,7 @@
 
 .social-icons {
     display: flex;
-    flex-direction: row; /* горизонтально */
+    flex-direction: row; 
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -86,7 +92,7 @@
     font-family: "Coral Pixels", serif;
 }
 
-/* Адаптивність */
+
 @media (max-width: 600px) {
     .social-icons {
         gap: 20px;
@@ -111,7 +117,7 @@ p {
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
-    /* identical to box height */
+    
 
     color: #000000;
 }
@@ -131,11 +137,11 @@ p {
   
   .carousel-slide {
     width: 100%;
-    display: none; /* спочатку всі приховані */
+    display: none; 
   }
   
   .carousel-slide:first-child {
-    display: block; /* перший показується */
+    display: block; 
   }
   
   
@@ -162,9 +168,57 @@ p {
   }
 
   .carousel-button.next:hover{
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.212);
   }
   
   .carousel-button.prev:hover{
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.212);
   }
+
+
+  .registration-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.registration-form input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registration-form button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e4002b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registration-form button:hover {
+  background-color: #c00023;
+}
