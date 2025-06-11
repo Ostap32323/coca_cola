@@ -77,7 +77,7 @@
 }
 
 .social-icons a:hover {
-    background-color: white;
+    background-color: rgb(146, 146, 146);
     color: black;
     transform: scale(1.1);
 }
@@ -214,4 +214,148 @@ p {
 
 .registration-form button:hover {
   background-color: #c00023;
+}
+
+
+/* Загальні стилі */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+  color: #222;
+}
+
+/* Заголовки */
+h2, h3 {
+  text-align: center;
+  color: #e4002b; /* фірмовий червоний Coca-Cola */
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+/* Секція "Наші бренди" */
+.our_brands {
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+/* Блоки брендів і дизайну */
+.brands, .design {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px 10px;
+}
+
+.brands img,.design img {
+  max-width: 150px;
+  height: auto; /* Зберігає пропорції */
+  object-fit: contain; /* Гарантує, що зображення не спотвориться */
+  transition: transform 0.3s ease;
+}
+
+.brands img:hover, .design img:hover {
+  transform: scale(1.1);
+}
+
+/* Секція опису продуктів */
+.text-section {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  padding: 20px;
+  background-color: #fff7f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.text-section h3 {
+  color: #b3001b;
+  border-bottom: 2px solid #e4002b;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+.text-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #333;
+  font-size: 16px;
+}
+
+.text-section li {
+  margin: 8px 0;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px 20px;
+  background-color: #fefefe;
+  color: #222;
+}
+
+
+.logo {
+  height: 50px;
+}
+
+
+
+.item-header a:hover {
+  color: #b3001b;
+}
+
+/* Контактна секція */
+.contact-info {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #fff7f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+  text-align: center;
+  color: #e4002b;
+  margin-bottom: 20px;
+}
+
+.contact-info a {
+  display: block;
+  margin: 8px 0;
+  color: #0056b3;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  color: #003366;
+}
+
+
+
+.main {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff7f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.main p {
+  margin-bottom: 20px;
+}
+
+.main strong {
+  color: #e4002b; /* Coca-Cola червоний */
+  font-weight: bold;
 }
