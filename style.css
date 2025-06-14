@@ -24,7 +24,6 @@
     transition: color 0.3s ease;
 }
 
-
 .main {
     background-color: #EEEEEE;
 }
@@ -34,6 +33,7 @@
     color: #ffffff;
     margin: -20px;
     padding: 40px 20px;
+    margin: -20px;
     text-align: center;
     font-family: "Coral Pixels", serif;
 }
