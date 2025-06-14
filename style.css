@@ -32,11 +32,15 @@
 .footer {
     background-color: #000000;
     color: #ffffff;
+    margin: -20px;
     padding: 40px 20px;
     text-align: center;
     font-family: "Coral Pixels", serif;
 }
 
+html, body{
+  height: 100%;
+}
 .footer-logo {
     display: flex;
     justify-content: center;
