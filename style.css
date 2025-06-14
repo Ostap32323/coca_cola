@@ -31,8 +31,8 @@
 .footer {
     background-color: #000000;
     color: #ffffff;
-    margin: -20px;
-    padding: 40px 20px;
+    margin: -10px;
+    padding: 10px 10px;
     margin: -20px;
     text-align: center;
     font-family: "Coral Pixels", serif;
@@ -46,7 +46,7 @@ html, body{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 20px;
 }
 
@@ -89,6 +89,7 @@ html, body{
 .footer p {
     font-size: 18px;
     margin-top: 10px;
+    color:white;
 }
 
 .footer p strong {
@@ -104,7 +105,7 @@ html, body{
 
     .footer-logo {
         flex-direction: column;
-        gap: 5px;
+        gap: 20px;
     }
 
     .footer p {
@@ -221,7 +222,7 @@ p {
 }
 
 
-/* Загальні стилі */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -230,21 +231,21 @@ body {
   color: #222;
 }
 
-/* Заголовки */
+
 h2, h3 {
   text-align: center;
-  color: #e4002b; /* фірмовий червоний Coca-Cola */
+  color: #e4002b; 
   margin-top: 30px;
   font-weight: 700;
 }
 
-/* Секція "Наші бренди" */
+
 .our_brands {
   font-size: 32px;
   letter-spacing: 1px;
 }
 
-/* Блоки брендів і дизайну */
+
 .brands, .design {
   display: flex;
   flex-wrap: wrap;
@@ -255,8 +256,8 @@ h2, h3 {
 
 .brands img,.design img {
   max-width: 150px;
-  height: auto; /* Зберігає пропорції */
-  object-fit: contain; /* Гарантує, що зображення не спотвориться */
+  height: auto; 
+  object-fit: contain; 
   transition: transform 0.3s ease;
 }
 
@@ -264,7 +265,7 @@ h2, h3 {
   transform: scale(1.1);
 }
 
-/* Секція опису продуктів */
+
 .text-section {
   max-width: 800px;
   margin: 0 auto 50px;
@@ -312,7 +313,7 @@ body {
   color: #b3001b;
 }
 
-/* Контактна секція */
+
 .contact-info {
   max-width: 600px;
   margin: 40px auto;
@@ -360,6 +361,6 @@ body {
 }
 
 .main strong {
-  color: #e4002b; /* Coca-Cola червоний */
+  color: #e4002b; 
   font-weight: bold;
 }
